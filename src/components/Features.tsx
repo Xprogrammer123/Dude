@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import { Video, Music, Sparkles, Share2 } from "lucide-react";
 export function Features() {

@@ -1,8 +1,7 @@
-import React from "react";
+
 import { motion, useScroll, useTransform } from "framer-motion";
 export function About() {
   const { scrollYProgress } = useScroll();
-  const y1 = useTransform(scrollYProgress, [0, 1], [0, -100]);
   const y2 = useTransform(scrollYProgress, [0, 1], [0, 100]);
   return (
     <section className="py-20 bg-white overflow-hidden">
@@ -117,7 +116,8 @@ export function About() {
             />
           </motion.div>
         </motion.div>
-        <style jsx global>{`
+        <style>
+          {`
           @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
           .font-dancing {
             font-family: "Dancing Script", cursive;

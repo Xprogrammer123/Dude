@@ -1,7 +1,7 @@
-import React from "react";
+
 import { FaTiktok, FaYoutube, FaGoogle } from "react-icons/fa";
 
-const Login = ({ onToggle }) => {
+const Login = ({ onToggle }: { onToggle: () => void }) =>{
   return (
     <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-md border-2 space-x-5">
       {/* Image Section */}
@@ -53,20 +53,7 @@ const Login = ({ onToggle }) => {
           </button> 
         </p>
           
-<h3 className="text-center flex justify-center font-lg">- or -</h3>
 
-         {/* Social Icons */}
-         <div className="flex justify-center mt-6 space-x-6 text-gray-600">
-          <button className="hover:text-red-700">
-            <FaTiktok size={28} />
-          </button>
-          <button className="hover:text-red-500">
-            <FaYoutube size={28} />
-          </button>
-          <button className="hover:text-blue-500">
-            <FaGoogle size={28} />
-          </button>
-        </div>
       </div>
         
     </div>

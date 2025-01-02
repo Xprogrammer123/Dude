@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import { Layout, Wand2, Share } from "lucide-react";
 export function HowItWorks() {

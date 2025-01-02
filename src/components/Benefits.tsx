@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import { Trophy, Users, Zap, ChartBar } from "lucide-react";
 import CountUp from "react-countup";
